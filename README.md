@@ -81,21 +81,21 @@ Products with high review counts build stronger customer trust and should be hig
 
 ## Repository Structure
 
-amazon-product-analysis
-│
-├── dashboard
-│ └── amazon_product_analytics_dashboard.pbix
-│
-├── data
-│ └── amazon_cleaned_data.csv
-│
-├── images
-│ └── dashboard screenshots
-│
-├── notebook
-│ └── amazon_analysis.ipynb
-│
-└── README.md
+-amazon-product-analysis
+-│
+-├── dashboard
+-│ └── amazon_product_analytics_dashboard.pbix
+-│
+-├── data
+-│ └── amazon_cleaned_data.csv
+-│
+-├── images
+-│ └── dashboard screenshots
+-│
+-├── notebook
+-│ └── amazon_analysis.ipynb
+-│
+-└── README.md
 
 
 
