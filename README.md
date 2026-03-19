@@ -94,8 +94,6 @@ Products with high review counts build stronger customer trust and should be hig
 - `data/amazon_cleaned_data.csv` — cleaned dataset
 - `notebook/amazon_analysis.ipynb` — exploratory analysis
 - `dashboard/amazon_product_analytics_dashboard.pbix` — Power BI dashboard
-- `dashboard/amazon_product_analytics_dashboard.pdf` — dashboard export
-- `images/` — dashboard screenshots
 
 ---
 
