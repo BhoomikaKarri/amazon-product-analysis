@@ -1,34 +1,44 @@
 # Amazon Product Analytics Dashboard
 
-Interactive **Power BI dashboard and Python-based exploratory data analysis (EDA)** of Amazon product data to understand category performance, customer ratings, and discount patterns.
+Interactive **Power BI dashboard** and **Python-based exploratory data analysis (EDA)** of Amazon product data to understand category performance, customer ratings, and discount patterns.
 
 ---
 
 ## Project Overview
 
-This project analyzes Amazon product data to explore how different product categories perform, how discounts vary across categories, and whether discounts influence customer ratings.
+This project analyzes Amazon product data to explore how product categories perform, how discounts vary across categories, and whether higher discounts are associated with better customer ratings.
 
 The workflow includes **data cleaning, exploratory data analysis using Python, and interactive dashboard development using Power BI**.
+
+> This was built as my first Power BI project.
+
+---
+
+## Problem Statement
+
+Can higher discounts improve product ratings?
+
+This project investigates whether pricing strategy, discounting, and review volume have any meaningful relationship with customer satisfaction on Amazon products.
 
 ---
 
 ## What I Did
 
-- Cleaned and preprocessed Amazon product data (ratings, discounts, and pricing fields)
+- Cleaned and preprocessed Amazon product data
 - Performed exploratory data analysis using Python
 - Analyzed the relationship between **discount percentage and product ratings**
 - Built an interactive **Power BI dashboard** with KPI metrics and category comparisons
-- Extracted business insights from rating and discount patterns
+- Extracted business insights from rating, review, and discount patterns
 
 ---
 
 ## Dashboard Metrics
 
-- **Total Products:** 1351  
-- **Total Reviews:** 27M  
-- **Average Rating:** 4.10  
-- **Average Discount:** 47.69%  
-- **Average Price:** 3.13K  
+- **Total Products:** 1,351
+- **Total Reviews:** 27M
+- **Average Rating:** 4.10
+- **Average Discount:** 47.69%
+- **Average Price:** ₹3.13K
 
 ---
 
@@ -48,14 +58,14 @@ The dashboard includes the following visualizations:
 
 Higher discounts **do not significantly increase product ratings**.
 
-Most products maintain ratings between **4.0 – 4.5 stars**, suggesting that **product quality and customer experience influence ratings more than pricing strategies**.
+Most products maintain ratings between **4.0 and 4.5 stars**, suggesting that **product quality and customer experience influence ratings more than pricing strategy**.
 
 ---
 
 ## Business Insights
 
 **Discounts ≠ Higher Ratings**  
-Discounting may increase purchase probability but does not significantly improve perceived product quality.
+Discounting may increase purchase probability, but it does not necessarily improve perceived product quality.
 
 **Stable Rating Distribution**  
 Most categories cluster between **4.0–4.5 stars**, indicating relatively consistent product satisfaction.
@@ -81,7 +91,43 @@ Products with high review counts build stronger customer trust and should be hig
 
 ## Project Files
 
-- `data/amazon_cleaned_data.csv` — cleaned dataset  
-- `notebook/amazon_analysis.ipynb` — exploratory analysis  
-- `dashboard/amazon_product_analytics_dashboard.pbix` — Power BI dashboard  
+- `data/amazon_cleaned_data.csv` — cleaned dataset
+- `notebook/amazon_analysis.ipynb` — exploratory analysis
+- `dashboard/amazon_product_analytics_dashboard.pbix` — Power BI dashboard
+- `dashboard/amazon_product_analytics_dashboard.pdf` — dashboard export
 - `images/` — dashboard screenshots
+
+---
+
+## Repository Structure
+
+```text
+amazon_analysis/
+│
+├── dashboard/
+│   ├── amazon_product_analytics_dashboard.pbix
+│   └── amazon_product_analytics_dashboard.pdf
+│
+├── data/
+│   ├── amazon.csv
+│   └── amazon_cleaned_data.csv
+│
+├── images/
+│   ├── customer.png
+│   ├── discount.png
+│   ├── Product.png
+│   └── relationship.png
+│
+├── notebook/
+│   └── amazon_analysis.ipynb
+│
+├── README.md
+└── LICENSE
+```
+---
+
+## Author
+
+**K. L. Bhoomika**  
+B.Tech Computer Science Engineering (Data Science)  
+GITAM University, Visakhapatnam  
